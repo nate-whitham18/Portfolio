@@ -57,13 +57,18 @@
   </div>
   <div class="project-card">
     <h3>Game Review API Tests</h3>
-    <p>Automated API test suite using <strong>pytest</strong> for a mock game review server. Covers CRUD operations,
-      input validation, and error handling.</p>
+    <p>This project is a full-stack test automation suite for a mock Game Review Tracker application. It uses Python,
+      Pytest, Requests, and Selenium to automate both API and UI testing. The backend is simulated using a mock API
+      powered by db.json and served with json-server. The suite includes:</p>
     <ul>
-      <li>Python 3.13, Pytest, JSON mock server</li>
-      <li>Continuous Integration with GitHub Actions</li>
-      <li>8 comprehensive test cases</li>
+      <li>API tests in test_games_api.py for endpoints like /games and /reviews, covering positive and negative
+        scenarios.</li>
+      <li>UI tests in test_form_selenium.py that automate form submission on game_review_form.html using Selenium.</li>
+      <li>Continuous integration via GitHub Actions (.github/workflows/tests.yml), running tests on every push.</li>
+      <li>Modular structure for easy maintenance and demonstration of best practices in test automation.</li>
     </ul>
+    <p>The project is designed to showcase skills in automated testing, CI/CD, and test design for both REST APIs and
+      web UIs.</p>
     <a href="https://github.com/nate-whitham18/Game-Review-Tester" target="_blank">View on GitHub</a>
   </div>
 </section>
