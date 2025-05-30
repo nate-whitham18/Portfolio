@@ -31,7 +31,7 @@ I am a passionate developer with over 6 years of professional experience in auto
 
 ## Usage
 
-To view the portfolio, open `index.html` in your browser or visit the deployed site (if available).
+To view the portfolio, open [https://nate-whitham18.github.io/Portfolio/](#) in your browser or visit the deployed site (if available).
 
 ## Resume
 
